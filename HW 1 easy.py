@@ -13,7 +13,7 @@ number = str(random.randint(0,100000))
 
 # С использованием цикл for
 for i in number:
-    print(i)
+    print(number[i])
 # С использованием цикл while
 i = 0
 while i <= (len(number)-1):
